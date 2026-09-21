@@ -92,8 +92,10 @@ button:disabled { opacity: .5; cursor: default; }
 }
 .film-image {
   width: 100%;
-  max-height: 300px;
+  max-width: 500px;
+  height: 280px;
   object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 20px;
+  display: block;
+  margin: 0 auto 25px;
+  border-radius: 10px;
 }
