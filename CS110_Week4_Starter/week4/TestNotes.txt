@@ -9,14 +9,18 @@ What I observed (or exact error): The sphere became bigger when i refreshed the 
 What I kept, restored, or corrected: I kept the diameter at 3 
 My next test: I want to change the sphere location 
 
-Changes I made: 
+Changes I made: I changed the sphere diameter from 2 to 3.
+I added my film review to the website.
+I added a console message about The Beholder.
+I added a visible text update for my film review scene.
 
 Future tests and ideas:
+I want to change the sphere location and maybe change its color to better match the mysterious feeling of the film.
 
 Final checks
 Website -> 3D page -> website: Works 
 Scene and description agree: Yes 
 Narrow and wide layout: Works
 Keyboard navigation: Works 
-Console errors / unresolved issues:
-Peer observation and correction:
+Console errors / unresolved issues: babylon.js.map 404 error, but the 3D scene still works
+Peer observation and correction: Not completed yet
