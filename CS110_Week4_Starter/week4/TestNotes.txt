@@ -13,6 +13,7 @@ Changes I made: I changed the sphere diameter from 2 to 3.
 I added my film review to the website.
 I added a console message about The Beholder.
 I added a visible text update for my film review scene.
+I added a box right next to the sphere.
 
 Future tests and ideas:
 I want to change the sphere location and maybe change its color to better match the mysterious feeling of the film.
