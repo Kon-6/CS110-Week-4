@@ -1,6 +1,6 @@
 Week 4 experiments
 Pathway: Film Review 
-Website / 3D page:
+Website / 3D page: 
 
 Experiment: Changing the sphere size
 What I expected: i expected the sphere to get bigger
@@ -22,5 +22,5 @@ Website -> 3D page -> website: Works
 Scene and description agree: Yes 
 Narrow and wide layout: Works
 Keyboard navigation: Works 
-Console errors / unresolved issues: babylon.js.map 404 error, but the 3D scene still works
+Console errors / unresolved issues: babylon.js.map 404 error, but the 3D scene still works and i could'nt figure out how to get to my webpage so i ended up making a new index.html.
 Peer observation and correction: Not completed yet
