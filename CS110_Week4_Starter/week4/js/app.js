@@ -1,3 +1,5 @@
+console.log("JavaScript is connected!");
+
 "use strict";
 
 // Structure: 3d.html. Appearance: css/styles.css. Scene logic: this file.
