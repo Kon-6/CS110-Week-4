@@ -6,8 +6,6 @@ const canvas = document.getElementById("renderCanvas");
 const statusText = document.getElementById("scene-status");
 const resetButton = document.getElementById("reset-view");
 let engine;
-console.log("Film Review: Form and Void Act 2: The Beholder");
-statusText.textContent = "Film Review Scene: The Beholder";
 
 function createScene() {
   const scene = new BABYLON.Scene(engine);
@@ -49,8 +47,8 @@ try {
   resetButton.disabled = false;
 
   // INTRO PRACTICE: replace these messages with your own accurate context.
-  console.log("Week 4: sphere and ground scene loaded.");
-  statusText.textContent = "Scene ready: a sphere on a ground plane.";
+  console.log("Film Review: Form and Void Act 2: The Beholder");
+  statusText.textContent = "Film Review Scene: The Beholder";
 } catch (error) {
   if (engine) engine.dispose();
   canvas.hidden = true;

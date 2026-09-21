@@ -9,7 +9,7 @@ What I observed (or exact error): The sphere became bigger when i refreshed the 
 What I kept, restored, or corrected: I kept the diameter at 3 
 My next test: I want to change the sphere location 
 
-Changes I made:
+Changes I made: 
 
 Future tests and ideas:
 
