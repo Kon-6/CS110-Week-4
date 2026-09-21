@@ -6,6 +6,8 @@ const canvas = document.getElementById("renderCanvas");
 const statusText = document.getElementById("scene-status");
 const resetButton = document.getElementById("reset-view");
 let engine;
+console.log("Film Review: Form and Void Act 2: The Beholder");
+statusText.textContent = "Film Review Scene: The Beholder";
 
 function createScene() {
   const scene = new BABYLON.Scene(engine);
