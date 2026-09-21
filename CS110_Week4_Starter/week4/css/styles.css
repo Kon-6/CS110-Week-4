@@ -45,3 +45,48 @@ button:disabled { opacity: .5; cursor: default; }
   font-size: 14px;
   margin-left: 8px;
 }
+.movie-header {
+  max-width: 750px;
+  margin-bottom: 35px;
+  padding: 50px 0 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.review-label {
+  font-size: 12px;
+  letter-spacing: 4px;
+  opacity: 0.7;
+  margin-bottom: 5px;
+}
+
+.movie-header h1 {
+  font-size: 52px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.movie-subtitle {
+  font-size: 18px;
+  opacity: 0.7;
+  margin-top: 5px;
+}
+
+.scene-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+
+  color: white;
+  text-decoration: none;
+
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+
+  transition: 0.2s;
+}
+
+.scene-button:hover {
+  background: white;
+  color: #173f44;
+  transform: translateY(-2px);
+}
