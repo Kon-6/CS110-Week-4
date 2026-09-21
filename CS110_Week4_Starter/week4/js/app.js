@@ -1,7 +1,5 @@
-console.log("JavaScript is connected!");
-
 "use strict";
-console.log(JavaScript is connected");
+console.log("JavaScript is connected");
 
 // Structure: 3d.html. Appearance: css/styles.css. Scene logic: this file.
 const canvas = document.getElementById("renderCanvas");
