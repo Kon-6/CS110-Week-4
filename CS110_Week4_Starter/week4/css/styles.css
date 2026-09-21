@@ -93,8 +93,7 @@ button:disabled { opacity: .5; cursor: default; }
 .film-image {
   width: 100%;
   max-width: 500px;
-  height: 280px;
-  object-fit: cover;
+  height: auto;
   display: block;
   margin: 0 auto 25px;
   border-radius: 10px;
