@@ -14,9 +14,9 @@ Changes I made:
 Future tests and ideas:
 
 Final checks
-Website -> 3D page -> website:
-Scene and description agree:
-Narrow and wide layout:
-Keyboard navigation:
+Website -> 3D page -> website: Works 
+Scene and description agree: Yes 
+Narrow and wide layout: Works
+Keyboard navigation: Works 
 Console errors / unresolved issues:
 Peer observation and correction:
