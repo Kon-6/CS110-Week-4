@@ -24,4 +24,4 @@ Scene and description agree: Yes
 Narrow and wide layout: Works
 Keyboard navigation: Works 
 Console errors / unresolved issues: babylon.js.map 404 error, but the 3D scene still works and i could'nt figure out how to get to my webpage so i ended up making a new index.html.
-Peer observation and correction: Not completed yet
+Peer observation and correction: peer in class helped me check any mistakes. said i was "thorough".
