@@ -63,7 +63,7 @@ try {
 
   // INTRO PRACTICE: replace these messages with your own accurate context.
   console.log("Film Review: Form and Void Act 2: The Beholder");
-  statusText.textContent = "Film Review Scene: The Beholder";
+  statusText.textContent = "CS110 Course Recap — 3D Scene";
 } catch (error) {
   if (engine) engine.dispose();
   canvas.hidden = true;
