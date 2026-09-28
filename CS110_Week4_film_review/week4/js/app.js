@@ -22,6 +22,9 @@ function createScene() {
   // EXPERIMENT HERE. Change one value, predict the result, save, and reload.
   const sphere = BABYLON.MeshBuilder.CreateSphere("sphere", { diameter: 3, segments: 32 }, scene);
   sphere.position.y = 1;
+  const sphereMaterial = new BABYLON.StandardMaterial("sphereMaterial", scene);
+  sphereMaterial.diffuseColor = new BABYLON.Color3(0.15, 0.35, 0.9);
+  sphere.material = sphereMaterial;
   const ground = BABYLON.MeshBuilder.CreateGround("ground", { width: 6, height: 6 }, scene);
   const box = BABYLON.MeshBuilder.CreateBox("box", { size: 2 }, scene);
   box.position.x = 3;
