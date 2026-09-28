@@ -9,7 +9,7 @@ let engine;
 
 function createScene() {
   const scene = new BABYLON.Scene(engine);
-  scene.clearColor = new BABYLON.Color4(0.08, 0.14, 0.17, 1);
+  scene.clearColor = new BABYLON.Color4(0.03, 0.07, 0.16, 1);
 
   const camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(0, 5, -10), scene);
   camera.setTarget(BABYLON.Vector3.Zero());
