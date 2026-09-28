@@ -29,6 +29,16 @@ function createScene() {
   const box = BABYLON.MeshBuilder.CreateBox("box", { size: 2 }, scene);
   box.position.x = 3;
   box.position.y = 1;
+  // Make the box dark blue
+const boxMaterial = new BABYLON.StandardMaterial("boxMaterial", scene);
+boxMaterial.diffuseColor = new BABYLON.Color3(0.08, 0.15, 0.35);
+box.material = boxMaterial;
+
+// Make the ground blue-gray
+const groundMaterial = new BABYLON.StandardMaterial("groundMaterial", scene);
+groundMaterial.diffuseColor = new BABYLON.Color3(0.15, 0.22, 0.35);
+ground.material = groundMaterial;
+  // Make the box dark blue
   // Optional extension: add a differently named object and give it its own position.
   // Keep one scene creation, one render loop, and one resize listener.
 
